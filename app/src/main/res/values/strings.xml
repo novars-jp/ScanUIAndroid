@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">ScanUI</string>
+    <string name="title_activity_my_scan">MyScanActivity</string>
+</resources>
