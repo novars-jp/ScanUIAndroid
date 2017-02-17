@@ -53,6 +53,12 @@ public class MyScanActivity extends AppCompatActivity {
         });
     }
 
+    @Override
+    protected void onPause() {
+        super.onPause();
+        App.getInstance().stopScan();
+    }
+
     private class ScanAdapter extends BaseAdapter {
 
         @Override
