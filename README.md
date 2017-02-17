@@ -27,12 +27,11 @@ Scanボタン1つと、SeekBarをもつ画面を作ります。
 ### 2. activity_my_scan.xmlのレイアウト編集
 
 ListViewを1つもつ画面を作ります。
-- [activity_main.xml](https://github.com/novars-jp/ScanUIAndroid/blob/master/app/src/main/res/layout/activity_main.xml)
+- [activity_my_scan.xml](https://github.com/novars-jp/ScanUIAndroid/blob/master/app/src/main/res/layout/activity_my_scan.xml)
 
 ### 3. ライブラリの初期化
 
 - [MainActivity.java](https://github.com/novars-jp/ScanUIAndroid/blob/master/app/src/main/java/jp/novars/scanui/MainActivity.java)のonCreateに以下のソース追加します。
-- [MyScanActivity.java](https://github.com/novars-jp/ScanUIAndroid/blob/master/app/src/main/java/jp/novars/scanui/MyScanActivity.java)のonCreateに以下のソース追加します。
 
 ```java
 App.getInstance().initializeApp(getApplicationContext());
