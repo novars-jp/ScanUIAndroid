@@ -13,7 +13,7 @@ repositories {
     maven { url 'http://raw.github.com/novars-jp/MaBeeeAndroidSDK/master/repository/' }
 }
 dependencies {
-    compile 'jp.novars.mabeee.sdk:sdk:1.1'
+    compile 'jp.novars.mabeee.sdk:sdk:1.3'
 }
 ```
 
@@ -216,6 +216,7 @@ mListView.setOnItemClickListener(new AdapterView.OnItemClickListener() {
 
 - ビルドして実行します。
 - AndroidのBluetoothがONになっているかを確認してください。
+- AndroidのBluetooth権限が有効になっているかを確認して下さい。
 - MaBeeeをおもちゃなどにセットして、おもちゃなどの電源をONにしてください。
 - スキャンボタンを押すと、MyScanActivityが表示されます。
 - セルには、MaBeeeの名前、RSSI、接続しているかどうかが表示されます。
