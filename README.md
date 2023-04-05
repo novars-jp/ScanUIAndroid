@@ -217,6 +217,8 @@ mListView.setOnItemClickListener(new AdapterView.OnItemClickListener() {
 - ビルドして実行します。
 - AndroidのBluetoothがONになっているかを確認してください。
 - AndroidのBluetooth権限が有効になっているかを確認して下さい。
+- Androidの詳細な位置情報権限が許可されているか確認してください。
+- Androidの付近のデバイス権限が許可されてるか確認してください。
 - MaBeeeをおもちゃなどにセットして、おもちゃなどの電源をONにしてください。
 - スキャンボタンを押すと、MyScanActivityが表示されます。
 - セルには、MaBeeeの名前、RSSI、接続しているかどうかが表示されます。
