@@ -10,10 +10,14 @@ AndroidStudioで[build.gradle(Module: app)](https://github.com/novars-jp/ScanUIA
 
 ```gradle
 repositories {
-    maven { url 'http://raw.github.com/novars-jp/MaBeeeAndroidSDK/master/repository/' }
+    maven { 
+      url 'https://maven.pkg.github.com/novars-jp/MaBeeeAndroidSDK'
+    }
 }
+
 dependencies {
-    compile 'jp.novars.mabeee.sdk:sdk:1.3'
+    implementation 'jp.novars.mabeee.sdk:sdk:1.5.1'
+    implementation 'androidx.localbroadcastmanager:localbroadcastmanager:1.1.0'
 }
 ```
 
@@ -84,12 +88,11 @@ seekBar.setOnSeekBarChangeListener(new SeekBar.OnSeekBarChangeListener() {
 ```
 
 - App.getInstance().getDevices()で接続済みのMaBeeeデバイスの配列が取得できます。
-- DeviceクラスのsetPwmDuty関数で、MaBeeeデバイスの出力を0から100の範囲で調整できます。
+- DeviceクラスのsetPwmDuty関数で、MaBeeeデバイスの出力を0%から100%の範囲で調整できます。
 
 ### 5. Scanの開始
 
 - MyScanActivityのonResumeでスキャンを開始します。
-
 ```java
 @Override
 protected void onResume() {
@@ -217,6 +220,8 @@ mListView.setOnItemClickListener(new AdapterView.OnItemClickListener() {
 - ビルドして実行します。
 - AndroidのBluetoothがONになっているかを確認してください。
 - AndroidのBluetooth権限が有効になっているかを確認して下さい。
+- Androidの詳細な位置情報権限が許可されているか確認してください。
+- Androidの付近のデバイス権限が許可されてるか確認してください。
 - MaBeeeをおもちゃなどにセットして、おもちゃなどの電源をONにしてください。
 - スキャンボタンを押すと、MyScanActivityが表示されます。
 - セルには、MaBeeeの名前、RSSI、接続しているかどうかが表示されます。

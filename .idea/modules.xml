@@ -2,12 +2,11 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/ScanUI.iml" filepath="$PROJECT_DIR$/ScanUI.iml" />
-      <module fileurl="file://$PROJECT_DIR$/ScanUIAndroid.iml" filepath="$PROJECT_DIR$/ScanUIAndroid.iml" />
-      <module fileurl="file://$PROJECT_DIR$/ScanUIAndroid.iml" filepath="$PROJECT_DIR$/ScanUIAndroid.iml" />
-      <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
-      <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
-      <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/ScanUIAndroid.iml" filepath="$PROJECT_DIR$/.idea/ScanUIAndroid.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/ScanUIAndroid.app.iml" filepath="$PROJECT_DIR$/.idea/modules/app/ScanUIAndroid.app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/ScanUIAndroid.app.androidTest.iml" filepath="$PROJECT_DIR$/.idea/modules/app/ScanUIAndroid.app.androidTest.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/ScanUIAndroid.app.main.iml" filepath="$PROJECT_DIR$/.idea/modules/app/ScanUIAndroid.app.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/ScanUIAndroid.app.unitTest.iml" filepath="$PROJECT_DIR$/.idea/modules/app/ScanUIAndroid.app.unitTest.iml" />
     </modules>
   </component>
 </project>
